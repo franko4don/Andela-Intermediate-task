@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:backgroundTint="#771e8cb5"
+    android:backgroundTintMode="src_over"
+    android:paddingTop="5dp"
+    android:background="@drawable/phone"
+
+    tools:context="breadboy.com.tribe.github.MainActivity">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listview"
+        >
+
+    </ListView>
+</LinearLayout>
